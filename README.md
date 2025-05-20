@@ -85,7 +85,7 @@ Bu proje, PHP ve MySQL kullanılarak geliştirilmiş basit bir bijuteri mağazas
 
 ## 👥 Geliştirici
 
-- Grup 35
+- Grup 115
 - Göksel Bekdemir
 - Emre Yasin Yıldan
 - Emirhan Bıkmaz
