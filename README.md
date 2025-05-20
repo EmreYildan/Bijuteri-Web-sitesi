@@ -1,4 +1,4 @@
-# Grup 35 Bijuteri Projesi
+# Grup 115 Bijuteri Projesi
 
 Bu proje, PHP ve MySQL kullanılarak geliştirilmiş basit bir bijuteri mağazası otomasyon sistemidir.
 
