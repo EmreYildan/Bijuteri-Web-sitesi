@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# bijuteri
-=======
-
-=======
 # Grup 115 Bijuteri Projesi
 
 Bu proje, PHP ve MySQL kullanılarak geliştirilmiş basit bir bijuteri mağazası otomasyon sistemidir.
@@ -12,32 +6,59 @@ Bu proje, PHP ve MySQL kullanılarak geliştirilmiş basit bir bijuteri mağazas
  
  Admin/  
    
-    ├─ admin.panel.php      → Yönetici ana paneli 
+    ├─ admin.panel.php              → Yönetici ana paneli 
+
+    ├─ yorum.yonet.php              → Kullanıcı yorumlarını yönet
    
-    ├─ admin.giris.php     	→ Yönetici girişi 
+    ├─ admin.giris.php              → Yönetici girişi 
    
-    ├─ admin.kayit.php      → Yönetici kaydı 
+    ├─ admin.kayit.php              → Yönetici kaydı 
+
+    ├─ musteri.goruntule.php        → müşterileri listeler
+
+    ├─ admin.siparis.yonet.php      → Siparişleri yönetme 
    
-    ├─ admin.cikis.php     	→ Yönetici çıkışı  
+    ├─ admin.cikis.php              → Yönetici çıkışı  
     
-    └─ admin.duzenle/       → Yönetici düzen işlemleri 
-        ├─ stok.php         → Stok bilgilerini yönetir 
-        ├─ urun.ekle.php    → Yeni ürün ekler 
-        └─ urun.sil.php     → Ürün silme işlemi 
+    └─ admin.duzenle/               → Yönetici düzen işlemleri 
+        ├─ stok.php                 → Stok bilgilerini yönetir 
+        ├─ urun.ekle.php            → Yeni ürün ekler 
+        └─ urun.sil.php             → Ürün silme işlemi 
+
+        └─ Destek.admin/                       → Admin Destek işlemleri
+        ├─ admin.destek.mesajlasma.php         → Kullanıcıyla mesajlaşma
+        ├─ admin.destek.talepleri.php          → Tablolama yapar 
         
+        
+Destek/  
+   
+    ├─ destek.mesajlasma.php      → Destekle mesaj yazışma
+    
+    ├─ destek.talep.gonder.php    → Destek Talep gonderme
+    
+    └─ destek.talepleri.php       → Destekten Talep 
+
+
+
  favori/  
    
-    ├─ favorilerim.php      → Favori ürünler listesi 
+    ├─ favorilerim.php       → Favori ürünler listesi 
     
-    ├─ favorilere.ekle.php  → Favoriye ürün ekleme 
+    ├─ favorilere.ekle.php   → Favoriye ürün ekleme 
     
-    └─ favori.sil.php       → Favoriden silme 
+    └─ favori.sil.php        → Favoriden silme 
     
  sepet/  
    
-    ├─ sepet.php            → Sepet görüntüleme 
+    ├─ sepet.php             → Sepet görüntüleme 
     
-    └─ sepete.ekle.php      → Sepete ürün ekleme 
+    └─ sepete.ekle.php       → Sepete ürün ekleme 
+
+    sifre/  
+   
+    ├─ sifre.sifirla.php     → Şifre sıfırlama 
+    
+    └─ sifre.yenile.php      → Şifre Yenileme
     
  urunler/  
    
@@ -73,7 +94,15 @@ Bu proje, PHP ve MySQL kullanılarak geliştirilmiş basit bir bijuteri mağazas
     
     ├─ siparis.durum.php    → Sipariş durumu 
    
-    ├─ urun.arama.php		   → Ürün arama
+    ├─ urun.arama.php		 → Ürün arama
+
+    ├─ README.md		       → Readme 
+
+    ├─ bijuteri.sql	       → Sql dosyamızın dışarı aktarılmış hali
+
+
+    
+  
 
 ## ⚙️ Teknolojiler
 
