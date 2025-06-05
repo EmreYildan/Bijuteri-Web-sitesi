@@ -241,7 +241,7 @@ if (!isset($_SESSION["musteri_id"])) {
                 <hr>
                 <h4>Toplam: <?= number_format($toplam_fiyat, 0, ',', '.') ?> TL</h4>
                 <!-- Alışverişi Tamamla butonunu siparişlerim.php'ye yönlendiren form olarak değiştiriyoruz -->
-                <form action="../siparişlerim.php" method="GET">
+                <form action="#" method="GET">
                     <button type="submit" class="btn btn-success mt-3">Alışverişi Tamamla</button>
                 </form>
             <?php else: ?>

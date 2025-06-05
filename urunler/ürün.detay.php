@@ -344,19 +344,29 @@ mysqli_stmt_close($yorum_sorgu);
     <footer class="bg-dark text-light py-4">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <h5>Hakkımızda</h5>
                     <p>Lüks ve kaliteli takı tasarımlarıyla 20 yılı aşkın süredir hizmetinizdeyiz.</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <h5>Hızlı Linkler</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-light">Gizlilik Politikası</a></li>
-                        <li><a href="#" class="text-light">İade Koşulları</a></li>
-                        <li><a href="#" class="text-light">İletişim</a></li>
+                        <li><a href="../Hızlı Linkler/Gizlilik Politikası.html" class="text-light">Gizlilik Politikası</a></li>
+                        <li><a href="../Hızlı Linkler/iletişim.html" class="text-light">İade Koşulları</a></li>
+                        
                     </ul>
                 </div>
-                <div class="col-md-4">
+                        <div class="col-md-3">
+                    <h5>İletişim Bilgileri</h5>
+                    <p>
+                      Ad Soyad: <strong>Emre Yasin Yıldan</strong><br />
+                      E-posta: <a  style="color:#4da6ff;">emreyildan@gmail.com</a><br />
+                      Telefon: <a  style="color:#4da6ff;">+90 533 967 46 24</a><br />
+                      Adres: <span>Örnek Mah. Örnek Sok. No:10, İstanbul, Türkiye</span>
+                    </p>
+                </div>
+
+                <div class="col-md-3">
                     <h5>Bizi Takip Edin</h5>
                     <div class="social-links">
                         <a href="#" class="text-light me-2"><i class="fab fa-facebook"></i></a>
@@ -367,7 +377,7 @@ mysqli_stmt_close($yorum_sorgu);
             </div>
         </div>
     </footer>
-
+ 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
